@@ -30,5 +30,7 @@ def directors_totals(nds)
   
   result
 end
+puts directors_totals(directors_database)
+
 require 'pp'
 pp directors_database
