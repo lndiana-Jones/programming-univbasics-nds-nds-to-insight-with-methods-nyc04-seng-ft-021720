@@ -23,14 +23,14 @@ def directors_totals(nds)
   director_count = 0 
   
   while director_count < nds.length 
-    result[nds[director_count][:name]] = gross_for_director
+    result[nds[director_count][:name]] = gross_for_director(nds[director_count])
   
   director_count += 1 
   end
   
   result
 end
-puts directors_totals(directors_database)
+
 
 require 'pp'
 pp directors_database
