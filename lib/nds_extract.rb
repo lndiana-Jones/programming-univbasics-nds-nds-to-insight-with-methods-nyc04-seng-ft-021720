@@ -23,8 +23,12 @@ def directors_totals(nds)
   director_count = 0 
   
   while director_count < nds.length 
+    result[nds[]]
   
+  director_count += 1 
+  end
   
+  result
 end
 require 'pp'
 pp directors_database
