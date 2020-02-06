@@ -20,6 +20,10 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   result = {}
+  director_count = 0 
+  
+  while director_count < nds.length 
+  
   
 end
 require 'pp'
